@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: Jost;
+    src: url(fonts/Jost-Regular.ttf) format("woff2")
+}
+
+@theme {
+    --font-jost: Jost, "sans-serif";
+    --color-bgc: #FFF3F4;
+    --font-tinos:Tinos, "sans-serif";
+    --color-button: #E32C89;
+    --color-buttonHover: #880D4B;
+}
